@@ -1,0 +1,15 @@
+body {
+  margin: 10px;
+}
+
+p::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
+::selection {
+  background-color: pink;
+}
+P::after {
+  content: "...";
+  display: block;
+}

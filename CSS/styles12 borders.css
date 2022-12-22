@@ -1,0 +1,16 @@
+body {
+  margin: 10px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: violet;
+  border: 10px pink solid;
+  box-shadow: grey 0px 0px 30px;
+}
+
+h1 {
+  color: gold;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}

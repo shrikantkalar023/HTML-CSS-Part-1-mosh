@@ -1,0 +1,20 @@
+body {
+  margin: 10px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(45deg, dodgerblue, yellow, tomato);
+}
+
+.radial {
+  width: 600px;
+  height: 100px;
+  background: rgb(83, 199, 125);
+  background: radial-gradient(
+    circle,
+    rgba(83, 199, 125, 1) 0%,
+    rgba(154, 201, 102, 1) 36%,
+    rgba(56, 230, 96, 1) 83%
+  );
+}
